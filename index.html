@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js" async></script>
+    <title>Converse Alls Stars| </title>
+</head>
+<body>
+    <header>
+        <center><img src="data:image/png;base64,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" width="300px"></center>
+    <hr>
+    </header>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Converse - Chuck Taylor All Star Classic</span>
+                <img src="https://www.instyle.es/medio/2021/04/06/converse_81358db4_600x600.jpg" alt="200px" class="img-item">
+                <br>
+                <span class="precio-item">$150</span>
+                <button class="boton-item">Agregar al Carrito</button>
+               
+            </div>
+            <div class="item">
+                <span class="titulo-item">Chuck Taylor All Star Platform High Top</span>
+                <img src="https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw8711f6cf/images/d_08/M9160_D_08X1.jpg?sw=406" alt="200px" class="img-item">
+                <span class="precio-item">$200</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Converse - Run Star Hike Lo Platform Sneaker</span>
+                <img src="https://www.converse.com/dw/image/v2/BCZC_PRD/on/demandware.static/-/Sites-cnv-master-catalog/default/dw34812cc1/images/d_08/168816C_D_08X1.jpg?sw=406" alt="200px" class="img-item">
+                <span class="precio-item">$325</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Converse - Chuck Taylor All Star Lugged 2.0</span>
+                <img src="https://www.nencinisport.it/images/width-def/background-def/format-def/end/articoli_varianti_foto/converse_chuck_taylor_all_star_lugged_20_3009528_dettaglio_11_20240423124041.png" alt="200px" class="img-item">
+                <span class="precio-item">$230</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Converse All Stars</span>
+                <img src="https://m.media-amazon.com/images/I/61ZaSDXPPyL._AC_SX385_.jpg" alt="200px" class="img-item">
+                <span class="precio-item">$180</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item"> Sweeter cold </span>
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4af6bcec-f643-406b-b483-b45311a6ec39/polo-de-manga-larga-converse-10-a-cold-wall-Mv9Ljx.png" width="10px" class="img-item">
+                <span class="precio-item">$200</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Shirt Alls Stars</span>
+                <img src="https://i.ebayimg.com/thumbs/images/g/CtAAAOSwPQ9lcNsF/s-l225.jpg" alt="200px" class="img-item">
+                <span class="precio-item">$180</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Converse X Cold blue</span>
+                <img src="https://m.media-amazon.com/images/I/71l8YCygqLL._AC_UY1000_.jpg" alt="200px" class="img-item">
+                <span class="precio-item">$220</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Panst Black Formal Alls Stars</span>
+                <img src="https://s3.sa-east-1.amazonaws.com/www.vaypol.com.ar/variants/qkrlgpd8q1dm0r0dsq63nz47muin/c77c2a06864ac9aca38dc5bd9371de015471edcdbf322dfb14411689bf968ae5" alt="" class="img-item">
+                <span class="precio-item">$300</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Formal Alls Stars Gray</span>
+                <img src="https://coliseumstorecl.vteximg.com.br/arquivos/ids/686854-600-600/CNVSU22MJOG3-035_1.jpg?v=637854669128270000" alt="" class="img-item">
+                <span class="precio-item">$150</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Pants Gray Alls Stars</span>
+                <img src="https://www.dimarsa.cl/media/catalog/product/m/a/marcasconverse11792c-035-gris1jpeg_0_5.jpg" alt="" class="img-item">
+                <span class="precio-item">$180</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Converse pants Alls star bronk </span>
+                <img src="https://cdn.laredoute.com/cdn-cgi/image/width=500,height=500,fit=pad,dpr=1/products/7/5/a/75ab7ac3778e67f3e731d6e01d4059a7.jpg" alt="" class="img-item">
+                <span class="precio-item">$160</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
